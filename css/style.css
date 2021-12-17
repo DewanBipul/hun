@@ -1,0 +1,1203 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+.title {
+
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+
+}
+
+.title h2 {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.title p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    width: 548px;
+    margin: 0 auto;
+
+}
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ nav-bar css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+nav {
+    background: transparent;
+    border-bottom: 1px solid rgba(254, 198, 0, .4);
+    position: absolute !important;
+    top: 30px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+
+
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+
+nav ul li a:after {
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #fec600;
+    content: "";
+    transition: .4s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: yellow
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ nav-bar css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ banner css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#banner-part {
+    background: url(../images/banner-img.png) no-repeat center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+}
+
+#banner-part .overlay .text {
+    padding-top: 230px;
+    padding-bottom: 130px;
+}
+
+#banner-part .overlay h2 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+#banner-part .overlay h1 {
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fec600;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+#banner-part .overlay p {
+    font-size: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 510px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+#banner-part .overlay a {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #f1f1f1;
+    padding: 20px 20px;
+    margin-left: 20px;
+    color: #f1f1f1;
+    transition: .4s;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+#banner-part .overlay a:hover {
+    color: #000;
+    background: #fec600;
+    border-color: #fec600;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ banner css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ about css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+#about-part .item {
+    margin: 300px 0;
+}
+
+#about-part .item .image {
+    height: 370px;
+    width: 370px;
+    border: 2px solid #494949;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#about-part .item .image .text {
+
+    background: #eeeeee;
+    position: absolute;
+    top: -240px;
+    left: -58px;
+    padding: 30px 20px;
+
+}
+
+
+
+#about-part .item .image .text h1 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #434343;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#about-part .item .image .text p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 428px;
+
+}
+
+
+#about-part .item .image .text .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(-50%, -50%) rotate(45deg);
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+#about-part .item .image .text i {
+    font-size: 20px;
+    position: absolute;
+    bottom: -81px;
+    left: 228px;
+    transition: .4s;
+}
+
+#about-part .item .image .text:hover i {
+    color: yellow;
+}
+
+
+
+
+#about-part .item .image .text2 {
+
+    background: #eeeeee;
+    position: absolute;
+    bottom: -240px;
+    left: -58px;
+    padding: 30px 20px;
+
+}
+
+
+
+#about-part .item .image .text2 h1 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #434343;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#about-part .item .image .text2 p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 428px;
+
+}
+
+
+#about-part .item .image .text2 .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(-50%, 50%) rotate(45deg);
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+#about-part .item .image .text2 i {
+    font-size: 20px;
+    position: absolute;
+    top: -81px;
+    left: 228px;
+    transition: .4s;
+}
+
+#about-part .item .image .text2:hover i {
+    color: yellow;
+}
+
+
+
+
+
+
+#about-part .item .image .text3 {
+
+    background: #eeeeee;
+    position: absolute;
+    left: -377px;
+    top: 70px;
+    padding: 30px 28px;
+
+}
+
+
+
+#about-part .item .image .text3 h1 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #434343;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+#about-part .item .image .text3 p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    width: 286px;
+
+}
+
+
+#about-part .item .image .text3 .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(50%, -50%) rotate(45deg);
+    position: absolute;
+    right: 1%;
+    bottom: 31%;
+    border-radius: 5px;
+}
+
+#about-part .item .image .text3 i {
+    font-size: 20px;
+    position: absolute;
+    right: -46px;
+    top: 81px;
+    transition: .4s;
+}
+
+#about-part .item .image .text3:hover i {
+    color: yellow;
+}
+
+
+
+
+
+#about-part .item .image .text4 {
+
+    background: #eeeeee;
+    position: absolute;
+    right: -377px;
+    top: 70px;
+    padding: 30px 28px;
+
+}
+
+
+
+#about-part .item .image .text4 h1 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #434343;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+#about-part .item .image .text4 p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    width: 286px;
+
+}
+
+
+#about-part .item .image .text4 .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(50%, -50%) rotate(45deg);
+    position: absolute;
+    left: -10%;
+    bottom: 31%;
+    border-radius: 5px;
+}
+
+#about-part .item .image .text4 i {
+    font-size: 20px;
+    position: absolute;
+    left: -46px;
+    top: 81px;
+    transition: .4s;
+}
+
+#about-part .item .image .text4:hover i {
+    color: yellow;
+}
+
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ about css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ protfolio css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#protfolio-part {
+    background: url(../images/protfolio-banner.png) no-repeat center;
+    background-size: cover;
+    clip-path: polygon(0 6%, 100% 1%, 100% 93%, 0% 100%);
+    margin-top: 300px;
+}
+
+
+#protfolio-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    padding: 180px 0;
+}
+
+#protfolio-part .title {
+    color: white;
+}
+
+#protfolio-part .overlay .item {
+    margin-top: 50px;
+
+
+}
+
+#protfolio-part .overlay .item .image img {
+    width: 100%;
+
+
+}
+
+#protfolio-part .item .image {
+    margin-top: 30px;
+    position: relative;
+}
+
+#protfolio-part .item .image .overly {
+    width: 0;
+    height: 0;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .4s;
+
+}
+
+#protfolio-part .item .image:hover .overly {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+}
+
+#protfolio-part .item .image .overly i {
+    font-size: 20px;
+    background: #f1f1f1;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    top: 50%;
+    left: 45%;
+}
+
+
+
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ protfolio css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ service css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#service-part .item {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 134px;
+}
+
+
+#service-part .item .titlee {
+    width: 40%;
+    margin-top: 90px;
+
+
+}
+
+#service-part .item .titlee h3 {
+    text-align: right;
+    margin-right: 80px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#service-part .item .image {
+    height: 70px;
+    width: 70px;
+    background: #eeeeee;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 80px;
+}
+
+#service-part .item .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#service-part .item .text {
+    margin-left: 80px;
+    background: #eeeeee;
+    position: relative;
+
+}
+
+#service-part .item .text p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 437px;
+    padding: 32px 23px;
+    text-align: right;
+}
+
+
+#service-part .item .text .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(50%, -50%) rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: -37px;
+}
+
+#service-part .item2 {
+    display: flex;
+    margin-top: 60px;
+
+}
+
+#service-part .item2 .titlee {
+    width: 40%;
+    margin-top: 90px;
+
+
+}
+
+#service-part .item2 .titlee h3 {
+    text-align: left;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#service-part .item2 .image {
+    width: 10%;
+    height: 70px;
+    width: 70px;
+    background: #eeeeee;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 80px;
+
+}
+
+#service-part .item2 .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#service-part .item2 .text {
+    margin-right: 80px;
+    background: #eeeeee;
+    padding: 40px 20px;
+    position: relative;
+}
+
+#service-part .item2 .text p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    text-align: right;
+}
+
+#service-part .item2 .text .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(-50%, 50%) rotate(45deg);
+    position: absolute;
+    top: 36%;
+    right: -37px;
+}
+
+#service-part .item3 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 134px;
+}
+
+#service-part .item3 .titlee {
+    width: 40%;
+    margin-top: 90px;
+}
+
+#service-part .item3 .titlee h3 {
+    text-align: right;
+    margin-right: 80px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#service-part .item3 .image {
+    height: 70px;
+    width: 70px;
+    background: #eeeeee;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 80px;
+}
+
+#service-part .item3 .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#service-part .item3 .text {
+    margin-left: 80px;
+    background: #eeeeee;
+    position: relative;
+}
+
+#service-part .item3 .text p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 437px;
+    padding: 0 20px;
+    padding: 40px 20px;
+}
+
+#service-part .item3 .text .shape {
+    height: 40px;
+    width: 40px;
+    background: #eeeeee;
+    transform: translate(50%, -50%) rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: -37px;
+}
+
+#service-part .scontainer {
+    position: relative;
+}
+
+#service-part .scontainer .img-shape {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ service css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ signature css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#signature-part {
+    margin-top: 200px;
+    background: url(../images/banner-3.png) no-repeat center;
+    background-size: cover;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+
+}
+
+#signature-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+
+}
+
+#signature-part .scontainer {
+    position: relative;
+
+}
+
+#signature-part .scontainer .line {
+    position: absolute;
+    top: 120px;
+    left: 60px;
+}
+
+#signature-part .overlay .item {
+    display: flex;
+}
+
+#signature-part .overlay .item .image {
+    width: 100px;
+    padding: 130px 0;
+    z-index: 1;
+}
+
+#signature-part .overlay .item .image img {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+
+}
+
+#signature-part .overlay .item .text {
+    color: #000;
+    background: #f1f1f1;
+    margin: 200px 80px;
+
+}
+
+#signature-part .overlay .item .text .details {
+    padding: 56px 40px;
+    position: relative;
+}
+
+#signature-part .overlay .item .text .details h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#signature-part .overlay .item .text .details h2 i {
+    color: #fec600;
+    font-size: 18px;
+}
+
+#signature-part .overlay .item .text .details h4 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 16px;
+}
+
+#signature-part .overlay .item .text .details p {
+    width: 870px;
+    margin-top: 20px;
+}
+
+#signature-part .overlay .item .text .details .sine {
+    margin-left: 80%;
+}
+
+#signature-part .overlay .item .text .details .shape {
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    transform: translate(-50%, 50%) rotate(45deg);
+    position: absolute;
+    top: 40%;
+    left: 6px;
+    border-radius: 10px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ signature css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ pricing css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+#price .item {
+    text-align: center;
+    background: #f1f1f1;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+#price h1 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background: #444444;
+    color: #f3f3f3;
+    clip-path: polygon(0 0, 100% 0%, 100% 68%, 0 95%);
+    padding-top: 30px;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#price ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 60px;
+    height: 100%;
+}
+
+#price ul li {
+    margin-bottom: 30px;
+    color: #4f4f4f;
+}
+
+#price a {
+
+    background: #444444;
+    padding: 30px 0;
+    color: white;
+    width: 100%;
+    display: block;
+    clip-path: polygon(0 34%, 100% 0%, 100% 100%, 0 100%);
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#price .item .round {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #f1f1f1;
+    border-radius: 50%;
+    background: #444444;
+    z-index: 1;
+    position: absolute;
+    top: 16%;
+    left: 32%;
+    color: #ffffff;
+    transition: .4s;
+}
+
+#price .item .round h2 {
+    font-size: 29px;
+    line-height: 20px;
+    padding-top: 20px;
+
+}
+
+#price .item .round p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#price .item:hover h1 {
+    background: #fec600;
+    color: #000;
+}
+
+#price .item:hover .round {
+    background: #fec600;
+    color: #000;
+}
+
+#price .item:hover a {
+    background: #fec600;
+    color: #000;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ pricing css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+counter css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#count {
+    background: url(../images/count.png) no-repeat center;
+    background-size: cover;
+    height: 150px;
+    transform: skewy(-4deg);
+    margin-top: 100px;
+}
+
+#count .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px 0;
+}
+
+#count .overlay .box {
+    color: #ffffff;
+    border: 2px solid #ffff;
+    text-align: center;
+    transform: skewX(-1deg);
+}
+
+#count .overlay .box p {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        counter css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          team css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#team-part .item {
+    margin-top: 100px;
+    border: 1px solid #000;
+    height: 375px;
+    transition: .4s;
+}
+
+#team-part .item .image {
+    height: 260px;
+    background: #f1f1f1;
+    overflow: hidden;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
+    position: relative;
+}
+
+#team-part .item .image .overlay {
+    width: 100%;
+    height: 0;
+    background: rgba(254, 198, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    opacity: 0;
+}
+
+#team-part .item:hover .image .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+
+#team-part .item .image .overlay i {
+    height: 40px;
+    width: 40px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    line-height: 40px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+}
+
+
+#team-part .item .text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#team-part .item .text h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#team-part .item .text p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#team-part .item .icon {
+    margin-top: -50px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+
+#team-part .item .icon i {
+    height: 35px;
+    width: 35px;
+    background: #f1f1f1;
+    color: #000;
+    border-radius: 50%;
+    line-height: 35px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    transition: .4s;
+
+}
+
+#team-part .item .icon i:hover {
+    background: #fec600
+}
+
+#team-part .item:hover .icon {
+    margin-top: 10px;
+    visibility: visible;
+    opacity: 1;
+}
+
+#team-part .item:hover {
+    height: 410px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          team css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          sponsor css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#sponsor-part {
+    margin-top: 100px;
+    background: #f1f1f1;
+    transform: skewY(-4deg);
+    padding: 30px 0;
+
+}
+
+
+#sponsor-part .img {
+    border: 1px solid #000;
+    text-align: center;
+
+
+}
+
+#sponsor-part .img img {
+    padding: 30px 0;
+
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          sponsor css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          fotter css start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#fotter-part {
+    background: black;
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#fotter-part .logo {
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+    transform: skewY(-3deg);
+}
+
+#fotter-part .logo img {
+    transform: skewY(3deg);
+    margin-top: 30px;
+}
+
+#fotter-part .bottom {
+    margin-top: 100px;
+    position: relative;
+    border-right: 1px solid #fff;
+}
+
+#fotter-part .bottom i {
+    color: #000;
+    height: 50px;
+    width: 50px;
+    background: #fec600;
+    border-radius: 50%;
+    padding: 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+
+}
+
+#fotter-part .bottom ul {
+    padding-top: 70px;
+    position: relative;
+
+}
+
+#fotter-part .bottom ul li {
+    color: #f1f1f1;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    margin-left: 35px;
+
+}
+
+#fotter-part .social {
+    margin-top: 50px;
+
+}
+
+#fotter-part .social h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#fotter-part .social ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#fotter-part .social ul li {
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    transition: .4s;
+    margin-bottom: 20px;
+
+}
+
+#fotter-part .social ul li a {
+    color: #444444;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#fotter-part .social ul li:hover {
+    background: #fec600;
+}
+
+#fotter-part .copyright {
+    padding: 20px 0;
+    background: #444444;
+
+}
+
+#fotter-part .copyright p {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+#fotter-part .copyright p span {
+    color: #fec600;
+}
+
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+          fotter css end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
